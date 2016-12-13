@@ -6,6 +6,6 @@ links.
 
 ## Libraries Used
 
-..* [Firebase by Google] (https://firebase.google.com/ "Firebase")
-..* [Fabric for Android] (https://fabric.io/home "Fabric.io")
+* [Firebase by Google] (https://firebase.google.com/ "Firebase")
+* [Fabric for Android] (https://fabric.io/home "Fabric.io")
 
