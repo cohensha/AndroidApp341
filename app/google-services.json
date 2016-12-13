@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "548846706000",
+    "firebase_url": "https://standstrong-43eba.firebaseio.com",
+    "project_id": "standstrong-43eba",
+    "storage_bucket": "standstrong-43eba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548846706000:android:ed3f1ca173a46999",
+        "android_client_info": {
+          "package_name": "itp341.cohen.sharon.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548846706000-g2cj0al53ka71pcu25qgirdvks8tvb2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVt0bymXqRnpvpJo4_ntTqsGUJqSt4HK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

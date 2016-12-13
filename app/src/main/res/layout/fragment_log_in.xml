@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.LogInFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/purple_ribbon"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textColor="@color/lightPurple"
+            android:id="@+id/userNameField"
+            android:hint="email address"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textColor="@color/lightPurple"
+            android:ems="10"
+            android:hint="******"
+            android:id="@+id/passwordField"
+            android:layout_gravity="center_horizontal"
+            android:padding="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Log In"
+                android:id="@+id/loginButton"
+                android:padding="16dp"
+                android:layout_margin="8dp"
+                android:background="@color/lightPurple"
+                android:onClick="login"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:background="@color/lightPurple"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:text="Sign Up"
+                android:id="@+id/signUpButton"
+                android:padding="16dp"/>
+        </LinearLayout>
+
+        <!--<Button-->
+            <!--android:layout_width="300dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Continue as Guest"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:background="@color/lightPurple"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:padding="16dp"-->
+            <!--android:id="@+id/guestButton" />-->
+
+    </LinearLayout>
+
+</FrameLayout>
